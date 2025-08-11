@@ -1,6 +1,6 @@
 services:
   api:
-    image: maurotrp/qc-qc_db_api:dev
+    image: maurotrp/qc_db_api:dev
     build:
       context: ./qc_db_api
       dockerfile: Dockerfile.dev
